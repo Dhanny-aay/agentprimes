@@ -20,7 +20,7 @@ const Footer = () => {
                 </button>
             </div>
              
-            <div className=" py-16 px-4 md:px-16 lg:px-24 text-[#f5f5f595]">
+            <div className=" py-16 px-4 md:px-16 lg:px-24 text-[#f5f5f5d3]">
                 <div className=" flex flex-col lg:flex-row items-start justify-between space-y-5 md:space-y-0">
 
                 <div className=" space-y-3">

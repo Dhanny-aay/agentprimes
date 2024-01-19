@@ -12,7 +12,7 @@ const Packages = () => {
                 <p className=" mt-2 font-medium text-2xl md:text-4xl">Unbeatable Packages</p>
                 <p className=" mt-3 text-center text-base md:text-lg text-[#4d4d4d] md:px-[15%]">Explore our Basic, Advanced, and Premium packages, featuring unbeatable packages on top-notch products and services. Act now to seize limited-time offers.</p>
                 <div className=" w-full mt-8 flex flex-col lg:flex-row justify-between space-y-8 lg:space-y-0 items-start">
-                    <div className=" w-full lg:w-[32%] rounded-3xl bg-[#b0a97984]">
+                    <div className=" w-full lg:w-[32%] rounded-3xl bg-[#f5f5f5]">
                         <div className=" p-6">
                         <p className=' mt-2 font-medium text-lg'>Basic</p>
                         <span className=" flex items-center space-x-2">
@@ -27,7 +27,7 @@ const Packages = () => {
                         <button className=" mt-4 py-3 rounded-[50px] bg-[#081f5c] text-white w-full text-base font-medium">Buy</button>
                         </div>
                     </div>
-                    <div className=" w-full lg:w-[32%] rounded-3xl bg-[#b0a97984]">
+                    <div className=" w-full lg:w-[32%] rounded-3xl bg-[#f5f5f5]">
                         <div className=" p-6">
                             <p className=' mt-2 font-medium text-lg'>Advanced</p>
                             <span className=" flex items-center space-x-2">
@@ -42,7 +42,7 @@ const Packages = () => {
                             <button className=" mt-4 py-3 rounded-[50px] bg-[#081f5c] text-white w-full text-base font-medium">Buy</button>
                         </div>
                     </div>
-                    <div className=" w-full lg:w-[32%] rounded-3xl bg-[#b0a97984]">
+                    <div className=" w-full lg:w-[32%] rounded-3xl bg-[#f5f5f5]">
                        <div className="p-6">
                             <p className=' mt-2 font-medium text-lg'>Premium</p>
                             <span className=" flex items-center space-x-2">

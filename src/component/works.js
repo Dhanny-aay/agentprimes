@@ -10,7 +10,7 @@ const Works = () => {
                 <p className=" mt-2 font-medium text-2xl md:text-4xl">Our Works</p>
                 <p className=" mt-3 text-center text-base md:text-lg text-[#4d4d4d] md:px-[15%]">Explore our diverse portfolio showcasing cutting-edge web design, development, and tailored digital strategies</p>
                 <div className=" w-full mt-8 flex flex-col lg:flex-row justify-between items-start space-y-8 lg:space-y-0">
-                    <div className=" w-full lg:w-[32%] rounded-3xl bg-[#b0a97984] h-[380px]">
+                    <div className=" w-full lg:w-[32%] rounded-3xl bg-[#f5f5f5] h-[380px]">
                         <div className=" w-full h-[200px] bg-[#081f5c] rounded-t-3xl"></div>
                         <div className=" p-6">
                         <p className=' mt-2 font-medium text-lg'>Web Development</p>
@@ -19,7 +19,7 @@ const Works = () => {
                         </p>
                         </div>
                     </div>
-                    <div className=" w-full lg:w-[32%] rounded-3xl bg-[#b0a97984] h-[380px]">
+                    <div className=" w-full lg:w-[32%] rounded-3xl bg-[#f5f5f5] h-[380px]">
                         <div className=" w-full h-[200px] bg-[#081f5c] rounded-t-3xl"></div>
                         <div className=" p-6">
                             <p className=' mt-2 font-medium text-lg'>Graphic Design</p>
@@ -28,7 +28,7 @@ const Works = () => {
                             </p>
                         </div>
                     </div>
-                    <div className=" w-full lg:w-[32%] rounded-3xl bg-[#b0a97984] h-[380px]">
+                    <div className=" w-full lg:w-[32%] rounded-3xl bg-[#f5f5f5] h-[380px]">
                         <div className=" w-full h-[200px] bg-[#081f5c] rounded-t-3xl"></div>
                        <div className="p-6">
                             <p className=' mt-2 font-medium text-lg'>Digital Marketing</p>

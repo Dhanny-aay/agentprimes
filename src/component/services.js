@@ -14,21 +14,21 @@ const Services = () => {
                 <p className=" mt-2 font-medium text-center text-2xl md:text-4xl">Services Built Specifically for your Business</p>
                 <p className=" mt-3 text-center text-base md:text-lg text-[#4d4d4d] md:px-[15%]">Explore our diverse portfolio showcasing cutting-edge web design, development, and tailored digital strategies</p>
                 <div className=" w-full mt-8 flex flex-col md:flex-row justify-between space-y-6 md:space-y-0 items-start">
-                    <div className=" w-full md:w-[32%] rounded-3xl p-6 bg-[#b0a97984] md:h-[280px] lg:h-[220px]">
+                    <div className=" w-full md:w-[32%] rounded-3xl p-6 bg-[#f5f5f5] md:h-[280px] lg:h-[220px]">
                         <img src={ terminal } className='' alt="Web development" />
                         <p className=' mt-2 font-medium text-lg'>Web Development</p>
                         <p className=' text-[#4d4d4d] text-base mt-2'>
                             We create visually appealing and functional websites that reflect your brand and engage your audience.
                         </p>
                     </div>
-                    <div className=" w-full md:w-[32%] rounded-3xl p-6 bg-[#b0a97984] h-[310px] lg:h-[250px]">
+                    <div className=" w-full md:w-[32%] rounded-3xl p-6 bg-[#f5f5f5] h-[310px] lg:h-[250px]">
                         <img src={ layer } className='' alt="Graphic design" />
                         <p className=' mt-2 font-medium text-lg'>Graphic Design</p>
                         <p className=' text-[#4d4d4d] text-base mt-2'>
                             Our team of graphic designers crafts unique and compelling designs to capture the essence of your business.
                         </p>
                     </div>
-                    <div className=" w-full md:w-[32%] rounded-3xl p-6 bg-[#b0a97984] md:h-[280px] lg:h-[220px]">
+                    <div className=" w-full md:w-[32%] rounded-3xl p-6 bg-[#f5f5f5] md:h-[280px] lg:h-[220px]">
                         <img src={ laptop } className='' alt="Digital Marketing" />
                         <p className=' mt-2 font-medium text-lg'>Digital Marketing</p>
                         <p className=' text-[#4d4d4d] text-base mt-2'>We devise effective digital marketing strategies to increase your online presence and drive conversions.</p>
