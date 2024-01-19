@@ -1,6 +1,6 @@
 import Paper_Plane from './assets/Paper_Plane.svg';
 import Arrow_Up_Right_MD from './assets/Arrow_Up_Right_MD.png';
-import illus from './assets/illus.svg';
+import chriana from './assets/chriana.jpg';
 
 
 const About = () => {
@@ -8,8 +8,8 @@ const About = () => {
         <>
         <div className="py-16 px-4 md:px-16 lg:px-24 w-full font-Outfit">
             <div className=" flex flex-col lg:flex-row items-center justify-between">
-                <div className=" w-full lg:w-[47%]">
-                    <img src={ illus } className='' alt="Woman demonstrating website building" />
+                <div style={{backgroundImage:`url(${chriana})`, backgroundPosition:'center', backgroundSize:'cover'}} className=" w-full h-[440px] rounded-3xl lg:w-[47%] bg-[#f3f3f3]">
+                    
                 </div>
                 <div className=" w-full lg:w-[47%] flex mt-12 lg:mt-0  items-start flex-col">
                     <span className=" rounded-[50px] w-[110px] flex bg-[#081e5c3b] py-[6px] px-3 space-x-3 items-center">

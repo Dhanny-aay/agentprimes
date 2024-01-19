@@ -21,7 +21,7 @@ const Services = () => {
                             We create visually appealing and functional websites that reflect your brand and engage your audience.
                         </p>
                     </div>
-                    <div className=" w-full md:w-[32%] rounded-3xl p-6 bg-[#f5f5f5] h-[310px] lg:h-[250px]">
+                    <div className=" w-full md:w-[32%] rounded-3xl p-6 bg-[#f5f5f5] md:h-[310px] lg:h-[250px]">
                         <img src={ layer } className='' alt="Graphic design" />
                         <p className=' mt-2 font-medium text-lg'>Graphic Design</p>
                         <p className=' text-[#4d4d4d] text-base mt-2'>

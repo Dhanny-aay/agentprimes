@@ -10,8 +10,8 @@ const Footer = () => {
                 <div className=' flex items-center space-x-8'>
                     <img src={ Chat_Conversation_Circle } className=' w-12' alt="Talk to us" />
                     <span className=' flex flex-col space-y-4'>
-                        <p className=' text-2xl md:text-4xl font-medium text-[#081f5c]'>Let's talk about your project</p>
-                        <p className=' text-base font-normal text-[#081e5cc3]'>Discover how we can bring innovation to your ideas, together.</p>
+                        <p className=' text-2xl md:text-4xl font-medium text-[#ffffff]'>Let's talk about your project</p>
+                        <p className=' text-base font-normal text-[#ffffffc3]'>Discover how we can bring innovation to your ideas, together.</p>
                     </span>
                 </div>
                 <button className=" px-6 py-3 mt-8 lg:mt-0 -auto rounded-[50px] bg-[#081f5c] font-Outfit font-medium text-[#f5f5f5] flex items-center space-x-2">
@@ -53,7 +53,7 @@ const Footer = () => {
 
                 <div className=' text-base '>
                     <p className=' font-semibold mb-5'>Contact</p>
-                    <span className=' font-normal space-y-3'>
+                    <span className=' font-normal space-y-3 text-[#ffffffc3]'>
                         <p>Partners</p>
                         <p>Community</p>
                         <p>Developers</p>
@@ -64,7 +64,7 @@ const Footer = () => {
 
                 <div className=' text-base '>
                     <p className=' font-semibold mb-5'>Legal</p>
-                    <span className=' font-normal space-y-3'>
+                    <span className=' font-normal space-y-3 text-[#ffffffc3]'>
                         <p>Channels</p>
                         <p>Scale</p>
                         <p>Watch the Demo</p>
@@ -74,7 +74,7 @@ const Footer = () => {
 
                 <div className=' text-base '>
                     <p className=' font-semibold mb-5'>Company</p>
-                    <span className=' font-normal space-y-3'>
+                    <span className=' font-normal space-y-3 text-[#ffffffc3]'>
                         <p>About Us</p>
                         <p>News</p>
                         <p>Leadership</p>
