@@ -1,6 +1,6 @@
 import Chat_Conversation_Circle from './assets/Chat_Conversation_Circle.svg';
 import Paper_Plane from './assets/Paper_Plane.svg';
-import logo from './assets/smallest.png';
+import logo from './assets/log.png';
 
 const Footer = () => {
     return ( 
