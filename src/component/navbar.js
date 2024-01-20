@@ -1,6 +1,7 @@
 import logo from './assets/smallest.png';
 import Paper_Plane from './assets/Paper_Plane.svg';
 import Hamburger_MD from './assets/Hamburger_MD.svg'
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return ( 
@@ -8,7 +9,7 @@ const Navbar = () => {
         <div className=" py-6 px-4 md:px-16 lg:px-24 flex items-center justify-between bg-[#ffffff] fixed top-0 left-0 w-full backdrop-blur-sm">
             <img src={ logo } className=' w-[150px] md:w-[250px]' alt="Agent Prime Sites" />
             <span className=' w-[(100%-250px)] hidden md:flex items-center text-[#212120] font-Outfit'>
-                <a className='hidden lg:block mx-4' href="">Home</a>
+                <Link to='/'><a className='hidden lg:block mx-4' href="">Home</a></Link>
                 <a className='hidden lg:block mx-4' href="">About Us</a>
                 <a className='hidden lg:block mx-4' href="">Portfolio</a>
                 <a className='hidden lg:block mx-4' href="">Packages</a>

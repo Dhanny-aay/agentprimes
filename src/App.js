@@ -1,22 +1,23 @@
-import About from "./component/about";
-import Footer from "./component/footer";
-import Hero from "./component/hero";
-import Navbar from "./component/navbar";
-import Packages from "./component/packages";
-import Services from "./component/services";
-import Works from "./component/works";
-
+import Landing from "./pages/landing";
+import { Routes, Route, useLocation } from "react-router-dom";
+import Legal from "./pages/legal";
+import { useEffect } from "react";
 
 function App() {
+
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+
+
   return (
     <>
-    <Navbar/>
-    <Hero/>
-    <Services/>
-    <About/>
-    <Works/>
-    <Packages/>
-    <Footer/>
+    <Routes>
+      <Route path="/" element={<Landing/>}/>
+      <Route path="/Policies" element={<Legal/>}/>
+    </Routes>
     </>
   );
 }
