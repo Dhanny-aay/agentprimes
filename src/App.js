@@ -2,6 +2,7 @@ import Landing from "./pages/landing";
 import { Routes, Route, useLocation } from "react-router-dom";
 import Legal from "./pages/legal";
 import { useEffect } from "react";
+import Contact from "./pages/contact";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Landing/>}/>
       <Route path="/Policies" element={<Legal/>}/>
+      <Route path="/contact" element={<Contact/>}/>
     </Routes>
     </>
   );

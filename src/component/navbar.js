@@ -13,11 +13,12 @@ const Navbar = () => {
                 <a className='hidden lg:block mx-4' href="">About Us</a>
                 <a className='hidden lg:block mx-4' href="">Portfolio</a>
                 <a className='hidden lg:block mx-4' href="">Packages</a>
-                <a className='hidden lg:block ml-4 mr-8' href="">Contact Us</a>
-                <button className=" px-6 py-3 rounded-[50px] bg-[#081f5c] font-Outfit font-medium text-[#f5f5f5] flex items-center space-x-2">
+                <Link to='/contact'><a className='hidden lg:block ml-4 mr-8' href="">Contact Us</a></Link>
+                <Link to='/contact'><button className=" px-6 py-3 rounded-[50px] bg-[#081f5c] font-Outfit font-medium text-[#f5f5f5] flex items-center space-x-2">
                     <p>Let's Talk</p>
                     <img src={ Paper_Plane } className=' w-5' alt="" />
                 </button>
+                </Link>
                 <img src={ Hamburger_MD } className=' hidden ml-8 md:block lg:hidden' alt="menu" />
             </span>
             <img src={ Hamburger_MD } className=' block md:hidden' alt="menu" />

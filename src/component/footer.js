@@ -15,10 +15,12 @@ const Footer = () => {
                         <p className=' text-base font-normal text-[#ffffffc3]'>Discover how we can bring innovation to your ideas, together.</p>
                     </span>
                 </div>
+                <Link to='/contact'>
                 <button className=" px-6 py-3 mt-8 lg:mt-0 -auto rounded-[50px] bg-[#081f5c] font-Outfit font-medium text-[#f5f5f5] flex items-center space-x-2">
                     <p>Let's Talk</p>
                     <img src={ Paper_Plane } className=' w-5' alt="" />
                 </button>
+                </Link>
             </div>
              
             <div className=" py-16 px-4 md:px-16 lg:px-24 text-[#f5f5f5d3]">
@@ -55,7 +57,7 @@ const Footer = () => {
                 <div className=' text-base '>
                     <p className=' font-semibold mb-5'>Contact</p>
                     <span className=' font-normal space-y-3 text-[#ffffffc3]'>
-                        <p>Partners</p>
+                        <Link to='/contact'><p>Contact Us</p></Link>
                         <p>Community</p>
                         <p>Developers</p>
                         <p>App</p>
