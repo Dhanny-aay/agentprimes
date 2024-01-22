@@ -16,7 +16,7 @@ const Footer = () => {
                     </span>
                 </div>
                 <Link to='/contact'>
-                <button className=" px-6 py-3 mt-8 lg:mt-0 -auto rounded-[50px] bg-[#081f5c] font-Outfit font-medium text-[#f5f5f5] flex items-center space-x-2">
+                <button className=" px-6 py-3 mt-8 lg:mt-0 -auto rounded-[50px] bg-[#081f5c] hover:bg-[#081e5ce9] transition-all font-Outfit font-medium text-[#f5f5f5] flex items-center space-x-2">
                     <p>Let's Talk</p>
                     <img src={ Paper_Plane } className=' w-5' alt="" />
                 </button>
@@ -78,7 +78,7 @@ const Footer = () => {
                 <div className=' text-base '>
                     <p className=' font-semibold mb-5'>Company</p>
                     <span className=' font-normal space-y-3 text-[#ffffffc3]'>
-                        <p>About Us</p>
+                        <Link to='about'><p>About Us</p></Link>
                         <p>News</p>
                         <p>Leadership</p>
                         <p>Media Kit</p>

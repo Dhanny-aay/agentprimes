@@ -1,6 +1,7 @@
 import Paper_Plane from './assets/Paper_Plane.svg';
 import Arrow_Up_Right_MD from './assets/Arrow_Up_Right_MD.png';
 import chriana from './assets/chriana.jpg';
+import { Link } from 'react-router-dom';
 
 
 const About = () => {
@@ -19,14 +20,14 @@ const About = () => {
                     <p className=" mt-2 text-2xl md:text-4xl font-medium">Services Built Specifically for your Business</p>
                     <p className=" mt-2 text-base font-normal text-[#4d4d4d]">Agent Prime Sites is an innovative digital agency that specializes in creating high-quality websites and digital marketing strategies designed to drive engagement and increase conversions.<br/>The team, consisting of experienced developers, designers, and marketing experts, is dedicated to understanding their clients unique business needs and tailoring their solutions to achieve the desired outcome. Agent Prime Sites prides itself on its ability to deliver exceptional results on time and within budget.</p>
                     <div className=" mt-4 flex space-x-6 items-center">
-                        <button className=" px-6 py-3 bg-[#081f5c] font-Outfit flex items-center space-x-2 font-medium text-[#f5f5f5] rounded-[50px]">
+                       <Link to='/contact'><button className=" px-6 py-3 bg-[#081f5c] font-Outfit flex hover:bg-[#081e5ce9] transition-all items-center space-x-2 font-medium text-[#f5f5f5] rounded-[50px]">
                             <p>Let's Talk</p>
                             <img src={ Paper_Plane } className=' w-5' alt="" />
-                        </button>
-                        <button className=" px-6 py-3 border-2 border-[#081f5c] font-Outfit flex items-center space-x-1 font-medium text-[#081f5c] rounded-[50px]">
+                        </button></Link>
+                        <Link to='/about'><button className=" px-6 py-3 border-2 border-[#081f5c] hover:bg-slate-400 hover:bg-opacity-30 transition-all font-Outfit flex items-center space-x-1 font-medium text-[#081f5c] rounded-[50px]">
                             <p>Read More</p>
                             <img src={ Arrow_Up_Right_MD } className=' w-6' alt="" />
-                        </button>
+                        </button></Link>
                     </div>
                 </div>
             </div>
