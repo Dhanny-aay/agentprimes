@@ -7,11 +7,11 @@ const Contact = () => {
         <Navbar/>
         <div className=" mt-28 md:mt-40 pb-8 md:pb-16 px-4 md:px-16 lg:px-24 w-full font-Outfit">
             <div className="mt-12 md:px-8 lg:px-16 px-3 ">
-                <p className=" w-full text-[24px] md:text-[32px] text-center font-semibold">Contact Prime Agent Sites</p>
-                <p className=" w-full text-[16px] md:text-[18px] text-center font-normal">We’d love to hear from you. Please fill out this form.</p>
+                <p className=" w-full text-[24px] md:text-[32px] text-white text-center font-semibold">Contact Prime Agent Sites</p>
+                <p className=" w-full text-[16px] md:text-[18px] text-center text-[#c6c4c4] font-normal">We’d love to hear from you. Please fill out this form.</p>
             </div>
 
-            <div className=" my-8 w-full md:px-10 lg:px-20">
+            <div className=" my-8 w-full md:px-10 lg:px-20 text-white">
                 <div className=" w-full p-3 md:p-8 md:border rounded-[8px] border-[#DAE0E6]">
                     <div className=" w-full flex flex-col md:flex-row justify-between mb-6">
                         <span className=" w-full md:w-[48%]">

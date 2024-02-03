@@ -15,10 +15,10 @@ const About = () => {
                 <div className=" w-full lg:w-[47%] flex mt-12 lg:mt-0  items-start flex-col">
                     <span className=" rounded-[50px] w-[110px] flex bg-[#b7984365] py-[6px] px-3 space-x-3 items-center">
                         <button className=" w-2 h-2 rounded-[50%] bg-gradient-to-r from-[#B79843] to-[#82620F] via-[#a18330]"></button>
-                        <p className=" text-sm text-[#1e1e1e] font-medium">About Us</p>
+                        <p className=" text-sm text-[#fefefe] font-medium">About Us</p>
                     </span>
-                    <p className=" mt-2 text-2xl md:text-4xl font-medium">Services Built Specifically for your Business</p>
-                    <p className=" mt-2 text-base font-normal text-[#4d4d4d]">At Prime Agency Sites, we are fully committed to delivering unmatched value to our customers. We take immense pride in providing only the best products and services, and we are confident that our unwavering commitment to excellence is evident in everything we do.</p>
+                    <p className=" mt-2 text-2xl md:text-4xl text-white font-medium">Services Built Specifically for your Business</p>
+                    <p className=" mt-2 text-base font-normal text-[#c6c4c4]">At Prime Agency Sites, we are fully committed to delivering unmatched value to our customers. We take immense pride in providing only the best products and services, and we are confident that our unwavering commitment to excellence is evident in everything we do.</p>
                     <div className=" mt-4 flex space-x-6 items-center">
                        <Link to='/contact'><button className=" px-6 py-3 bg-gradient-to-r from-[#B79843] to-[#82620F] via-[#a18330] font-Outfit flex hover:bg-[#081e5ce9] transition-all items-center space-x-2 font-medium text-[#f5f5f5] rounded-[50px]">
                             <p>Let's Talk</p>

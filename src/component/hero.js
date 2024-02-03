@@ -12,10 +12,10 @@ const Hero = () => {
                 <div className=" w-full items-center justify-center flex flex-col">
                     <span className=" rounded-[50px] w-[210px]  flex bg-[#b7984365] py-[6px] px-3 space-x-3 items-center">
                         <button className=" w-2 h-2 rounded-[50%]  bg-gradient-to-r from-[#B79843] to-[#82620F] via-[#a18330]"></button>
-                        <p className=" text-sm text-[#1e1e1e] font-medium">Cool Designs, Hot results.</p>
+                        <p className=" text-sm text-[#fefefe] font-medium">Cool Designs, Hot results.</p>
                     </span>
-                    <p className=" mt-4 text-3xl md:text-5xl text-center md:leading-[62px] font-medium">Welcome to Prime Agency Sites</p>
-                    <p className=" mt-5 text-base md:px-[15%] text-center font-normal text-[#4d4d4d]">We specialize in creating customized websites that cater to the unique needs of the real-estate industry. Our team is passionate about crafting stunning digital spaces that showcase your offerings and help you stand out from the competition. Let us work together to bring your real estate visions to life and help you establish a captivating online presence.</p>
+                    <p className=" mt-4 text-3xl md:text-5xl text-center text-white md:leading-[62px] font-medium">Web Dev Agency for Realtors©</p>
+                    <p className=" mt-5 text-base md:px-[15%] text-center font-normal text-[#c6c4c4]">We specialize in creating customized websites that cater to the unique needs of the real-estate industry. Our team is passionate about crafting stunning digital spaces that showcase your offerings and help you stand out from the competition. Let us work together to bring your real estate visions to life and help you establish a captivating online presence.</p>
                     <div className=" mt-4 flex space-x-4 md:justify-normal md:space-x-6 items-center">
                         <Link to='/contact'><button className=" px-4 md:px-6 py-3  bg-gradient-to-r from-[#B79843] to-[#82620F] via-[#a18330] transition-all font-Outfit flex items-center space-x-2 font-medium text-[#f5f5f5] rounded-[50px]">
                             <p>Let's Talk</p>

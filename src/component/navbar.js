@@ -1,4 +1,4 @@
-import logo from './assets/smallest.png';
+import logo from './assets/log.png';
 import Paper_Plane from './assets/Paper_Plane.svg';
 import Hamburger_MD from './assets/Hamburger_MD.svg'
 import { Link } from 'react-router-dom';
@@ -28,9 +28,9 @@ const Navbar = () => {
                 <Link to='/contact'><p className=" font-normal cursor-pointer text-base text-[#121212] font-Outfit ">Contact us</p></Link>
             </div>
         </div>
-        <div className=" py-6 px-4 md:px-16 z-[9999] lg:px-24 flex items-center justify-between bg-[#ffffff] fixed top-0 left-0 w-full backdrop-blur-sm">
+        <div className=" py-6 px-4 md:px-16 z-[9999] lg:px-24 flex items-center justify-between bg-[#000000] fixed top-0 left-0 w-full backdrop-blur-sm">
             <img src={ logo } className=' w-[150px] md:w-[250px]' alt="Agent Prime Sites" />
-            <span className=' w-[(100%-250px)] hidden md:flex items-center text-[#212120] font-Outfit'>
+            <span className=' w-[(100%-250px)] hidden md:flex items-center text-[#f5f5f5] font-Outfit'>
                 <Link to='/'><a className='hidden lg:block mx-4' href="">Home</a></Link>
                 <Link to='/about'><a className='hidden lg:block mx-4' href="">About Us</a></Link>
                 <Link to='/examples'><a className='hidden lg:block mx-4' href="">Examples</a></Link>

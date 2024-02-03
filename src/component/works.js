@@ -12,34 +12,34 @@ const Works = () => {
             <div className=" w-full flex flex-col justify-center items-center">
                 <span className=" rounded-[50px] flex bg-[#b7984365] py-[6px] px-3 space-x-3 items-center">
                     <button className=" w-2 h-2 rounded-[50%] bg-gradient-to-r from-[#B79843] to-[#82620F] via-[#a18330]"></button>
-                    <p className=" text-sm text-[#1e1e1e] font-medium">Crafting Digital Excellence</p>
+                    <p className=" text-sm text-[#fefefe] font-medium">Crafting Digital Excellence</p>
                 </span>
-                <p className=" mt-2 font-medium text-2xl md:text-4xl">Examples</p>
-                <p className=" mt-3 text-center text-base md:text-lg text-[#4d4d4d] md:px-[15%]">Explore our diverse portfolio showcasing cutting-edge web design, development, and tailored digital strategies</p>
+                <p className=" mt-2 font-medium text-2xl text-white md:text-4xl">Examples</p>
+                <p className=" mt-3 text-center text-base md:text-lg text-[#c6c4c4] md:px-[15%]">Explore our diverse portfolio showcasing cutting-edge web design, development, and tailored digital strategies</p>
                 <div className=" w-full mt-8 flex flex-col lg:flex-row justify-between items-start space-y-8 lg:space-y-0">
-                    <div className=" w-full lg:w-[32%] rounded-3xl bg-[#f5f5f5] h-[380px]">
+                    <div className=" w-full lg:w-[32%] rounded-3xl bg-[#121212] h-[380px]">
                         <div style={{backgroundImage:`url(${webdev})`, backgroundPosition:'center', backgroundSize:'cover'}} className=" w-full h-[200px] bg-[#717272] rounded-t-3xl"></div>
                         <div className=" p-6">
-                        <p className=' mt-2 font-medium text-lg'>Web Development</p>
-                        <p className=' text-[#4d4d4d] text-base mt-2'>
+                        <p className=' mt-2 font-medium text-white text-lg'>Web Development</p>
+                        <p className=' text-[#c6c4c4] text-base mt-2'>
                             We create visually appealing and functional websites that reflect your brand and engage your audience.
                         </p>
                         </div>
                     </div>
-                    <div  className=" w-full lg:w-[32%] rounded-3xl bg-[#f5f5f5] h-[380px]">
+                    <div  className=" w-full lg:w-[32%] rounded-3xl bg-[#121212] h-[380px]">
                         <div style={{backgroundImage:`url(${dsign})`, backgroundPosition:'center', backgroundSize:'cover'}} className=" w-full h-[200px] bg-[#717272] rounded-t-3xl"></div>
                         <div className=" p-6">
-                            <p className=' mt-2 font-medium text-lg'>Graphic Design</p>
-                            <p className=' text-[#4d4d4d] text-base mt-2'>
+                            <p className=' mt-2 font-medium text-white text-lg'>Graphic Design</p>
+                            <p className=' text-[#c6c4c4] text-base mt-2'>
                                 Our team of graphic designers crafts unique and compelling designs to capture the essence of your business.
                             </p>
                         </div>
                     </div>
-                    <div className=" w-full lg:w-[32%] rounded-3xl bg-[#f5f5f5] h-[380px]">
+                    <div className=" w-full lg:w-[32%] rounded-3xl bg-[#121212] h-[380px]">
                         <div style={{backgroundImage:`url(${lead})`, backgroundPosition:'center', backgroundSize:'cover'}} className=" w-full h-[200px] bg-[#717272] rounded-t-3xl"></div>
                        <div className="p-6">
-                            <p className=' mt-2 font-medium text-lg'>Lead Generation</p>
-                            <p className=' text-[#4d4d4d] text-base mt-2'>We Develop effective forms to capture potential client inquiries and leads.</p>
+                            <p className=' mt-2 font-medium text-white text-lg'>Lead Generation</p>
+                            <p className=' text-[#c6c4c4] text-base mt-2'>We Develop effective forms to capture potential client inquiries and leads.</p>
                         </div>
                     </div>
                 </div>

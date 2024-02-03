@@ -58,10 +58,6 @@ const Footer = () => {
                     <p className=' font-semibold mb-5'>Contact</p>
                     <span className=' font-normal space-y-3 text-[#ffffffc3]'>
                         <Link to='/contact'><p>Contact Us</p></Link>
-                        <p>Community</p>
-                        <p>Developers</p>
-                        <p>App</p>
-                        <p>Blog</p>
                     </span>
                 </div>
 
@@ -69,9 +65,6 @@ const Footer = () => {
                     <p className=' font-semibold mb-5'>Legal</p>
                     <span className=' font-normal space-y-3 text-[#ffffffc3]'>
                         <Link to='/Policies'><p>Policies</p></Link>
-                        <p>Scale</p>
-                        <p>Watch the Demo</p>
-                        <p>Our Competition</p>
                     </span>
                 </div>
 
@@ -79,9 +72,6 @@ const Footer = () => {
                     <p className=' font-semibold mb-5'>Company</p>
                     <span className=' font-normal space-y-3 text-[#ffffffc3]'>
                         <Link to='about'><p>About Us</p></Link>
-                        <p>News</p>
-                        <p>Leadership</p>
-                        <p>Media Kit</p>
                     </span>
                 </div>
 
