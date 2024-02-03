@@ -39,7 +39,7 @@ const Contact = () => {
                         </span>
                     </label>
 
-                    <button className=" w-full flex h-[45px] mt-6 rounded-[8px] bg-[#081f5c] hover:bg-opacity-75 transition-all justify-center items-center">
+                    <button className=" w-full flex h-[45px] mt-6 rounded-[8px] bg-gradient-to-r from-[#B79843] to-[#82620F] via-[#a18330] hover:bg-opacity-75 transition-all justify-center items-center">
                         <p className=" text-base text-white">Send Message</p>
                     </button>
                 </div>

@@ -23,23 +23,23 @@ const About = () => {
                 <p className=" text-2xl md:text-4xl text-center font-medium">In numbers</p>
                 <div className=" mt-8 grid grid-cols-1 md:grid-cols-5 gap-6">
                     <div className=" w-full h-[150px] hover:bg-slate-400 hover:bg-opacity-20 transition-all border-white/5 bg-[#f5f5f5] rounded-3xl p-6 flex flex-col items-start space-y-2 justify-start">
-                        <p className="text-[#081f5c] text-3xl font-semibold">30+</p>
+                        <p className="text-[#B79843] text-3xl font-semibold">12+</p>
                         <p className=" text-[#4d4d4d] font-normal text-base">Completed Projects</p>
                     </div>
                     <div className=" w-full h-[150px] hover:bg-slate-400 hover:bg-opacity-20 transition-all border-white/5 bg-[#f5f5f5] rounded-3xl p-6 flex flex-col items-start space-y-2 justify-start">
-                        <p className="text-[#081f5c] text-3xl font-semibold">42+</p>
+                        <p className="text-[#B79843] text-3xl font-semibold">15+</p>
                         <p className=" text-[#4d4d4d] font-normal text-base">Happy Clients</p>
                     </div>
                     <div className=" w-full h-[150px] hover:bg-slate-400 hover:bg-opacity-20 transition-all border-white/5 bg-[#f5f5f5] rounded-3xl p-6 flex flex-col items-start space-y-2 justify-start">
-                        <p className="text-[#081f5c] text-3xl font-semibold">300+</p>
+                        <p className="text-[#B79843] text-3xl font-semibold">300+</p>
                         <p className=" text-[#4d4d4d] font-normal text-base">Coffee Cups</p>
                     </div>
                     <div className=" w-full h-[150px] hover:bg-slate-400 hover:bg-opacity-20 transition-all border-white/5 bg-[#f5f5f5] rounded-3xl p-6 flex flex-col items-start space-y-2 justify-start">
-                        <p className="text-[#081f5c] text-3xl font-semibold">52+</p>
+                        <p className="text-[#B79843] text-3xl font-semibold">4+</p>
                         <p className=" text-[#4d4d4d] font-normal text-base">Years of experience</p>
                     </div>
                     <div className=" w-full h-[150px] hover:bg-slate-400 hover:bg-opacity-20 transition-all border-white/5 bg-[#f5f5f5] rounded-3xl p-6 flex flex-col items-start space-y-2 justify-start">
-                        <p className="text-[#081f5c] text-3xl font-semibold">6+</p>
+                        <p className="text-[#B79843] text-3xl font-semibold">6+</p>
                         <p className=" text-[#4d4d4d] font-normal text-base">Team Members</p>
                     </div>
                 </div>
@@ -49,25 +49,25 @@ const About = () => {
                 <p className=" text-2xl md:text-4xl text-center font-medium">Our Values</p>
                 <div className=" mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className=" w-full h-[230px] hover:bg-slate-400 hover:bg-opacity-20 transition-all border-white/5 bg-[#f5f5f5] rounded-3xl p-6 flex flex-col items-start space-y-2 justify-start">
-                        <p className=" text-[#081f5c] font-medium text-xl">01.</p>
+                        <p className=" text-[#B79843] font-medium text-xl">01.</p>
                         <p className=" text-black mt-2 text-lg font-medium">We are specialized</p>
                         <p className=" mt-3 text-[#4d4d4d] text-base font-normal">We develop unique digital experiences based on user insights, our expertise and proved data. We study the market, your competitors, and more importantly, your customers. We do the heavy lifting for you.</p>
                     </div>
 
                     <div className=" w-full h-[230px] hover:bg-slate-400 hover:bg-opacity-20 transition-all border-white/5 bg-[#f5f5f5] rounded-3xl p-6 flex flex-col items-start space-y-2 justify-start">
-                        <p className=" text-[#081f5c] font-medium text-xl">02.</p>
+                        <p className=" text-[#B79843] font-medium text-xl">02.</p>
                         <p className=" text-black mt-2 text-lg font-medium">We are responsive</p>
                         <p className=" mt-3 text-[#4d4d4d] text-base font-normal">We always keep door open in communication both with client and teammates. Everyone’s feedback is valuable, and we're never too busy to hear it. This is more than listening and discussion. It is about finding the right way.</p>
                     </div>
 
                     <div className=" w-full h-[230px] hover:bg-slate-400 hover:bg-opacity-20 transition-all border-white/5 bg-[#f5f5f5] rounded-3xl p-6 flex flex-col items-start space-y-2 justify-start">
-                        <p className=" text-[#081f5c] font-medium text-xl">03.</p>
+                        <p className=" text-[#B79843] font-medium text-xl">03.</p>
                         <p className=" text-black mt-2 text-lg font-medium">We focus on results</p>
                         <p className=" mt-3 text-[#4d4d4d] text-base font-normal">We carefully consider every project we take on because when we commit, we always bring 100%, and even a bit more. We are driven by a desire to provide best experience which exceeds a client's expectation.</p>
                     </div>
 
                     <div className=" w-full h-[230px] hover:bg-slate-400 hover:bg-opacity-20 transition-all border-white/5 bg-[#f5f5f5] rounded-3xl p-6 flex flex-col items-start space-y-2 justify-start">
-                        <p className=" text-[#081f5c] font-medium text-xl">04.</p>
+                        <p className=" text-[#B79843] font-medium text-xl">04.</p>
                         <p className=" text-black mt-2 text-lg font-medium">We work smart</p>
                         <p className=" mt-3 text-[#4d4d4d] text-base font-normal">We approach every challenge with an open mind. We are not afraid to experiment, try something new or combine things that no one has done before. This keeps us sharp and brings unique solutions to our clients.</p>
                     </div>

@@ -4,6 +4,7 @@ import Legal from "./pages/legal";
 import { useEffect } from "react";
 import Contact from "./pages/contact";
 import About from "./pages/about";
+import Examples from "./pages/examples";
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <Route path="/Policies" element={<Legal/>}/>
       <Route path="/contact" element={<Contact/>}/>
       <Route path='/about' element={<About/>}/>
+      <Route path="/examples" element={<Examples/>}/>
     </Routes>
     </>
   );

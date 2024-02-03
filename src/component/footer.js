@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return ( 
         <>
-        <div className=" bg-[#081f5c] font-Outfit mt-16">
-            <div className=" py-16 px-4 md:px-16 lg:px-24 bg-[#334eac] flex flex-col lg:flex-row items-center justify-between">
+        <div className="  bg-gradient-to-r from-[#B79843] to-[#82620F] via-[#a18330] font-Outfit mt-16">
+            <div className=" py-16 px-4 md:px-16 lg:px-24 bg-[#624004] flex flex-col lg:flex-row items-center justify-between">
                 <div className=' flex items-center space-x-8'>
                     <img src={ Chat_Conversation_Circle } className=' w-12' alt="Talk to us" />
                     <span className=' flex flex-col space-y-4'>
@@ -16,7 +16,7 @@ const Footer = () => {
                     </span>
                 </div>
                 <Link to='/contact'>
-                <button className=" px-6 py-3 mt-8 lg:mt-0 -auto rounded-[50px] bg-[#081f5c] hover:bg-[#081e5ce9] transition-all font-Outfit font-medium text-[#f5f5f5] flex items-center space-x-2">
+                <button className=" px-6 py-3 mt-8 lg:mt-0 -auto rounded-[50px]  bg-gradient-to-r from-[#B79843] to-[#82620F] via-[#a18330] transition-all font-Outfit font-medium text-[#f5f5f5] flex items-center space-x-2">
                     <p>Let's Talk</p>
                     <img src={ Paper_Plane } className=' w-5' alt="" />
                 </button>
