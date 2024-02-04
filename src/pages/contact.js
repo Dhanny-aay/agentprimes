@@ -16,18 +16,18 @@ const Contact = () => {
                     <div className=" w-full flex flex-col md:flex-row justify-between mb-6">
                         <span className=" w-full md:w-[48%]">
                             <label className=" text-base font-medium" for="first-name">First name</label>
-                            <input type="text" id="first-name" placeholder="John Doe" class=" h-[45px] bg-transparent mt-2 border border-[#DAE0E6] text-gray-900 font-normal placeholder text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"/>
+                            <input type="text" id="first-name" placeholder="John Doe" class=" h-[45px] bg-transparent mt-2 border border-[#DAE0E6] text-white font-normal placeholder text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"/>
                         </span>
                         <span className=" w-full md:w-[48%]">
                             <label className=" text-base font-medium" for="first-name">Email Address</label>
-                            <input type="text" id="mail" placeholder="Johndoe@mail.com" class=" h-[45px] bg-transparent mt-2 border border-[#DAE0E6] text-gray-900 font-normal placeholder text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"/>
+                            <input type="text" id="mail" placeholder="Johndoe@mail.com" class=" h-[45px] bg-transparent mt-2 border border-[#DAE0E6] text-white font-normal placeholder text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"/>
                         </span>
                     </div>
                     <label className=" text-base font-medium" for="first-name">Phone Number</label>
-                    <input type="text" id="phone" placeholder="+1" class=" h-[45px] bg-transparent mt-2 border border-[#DAE0E6] mb-6 text-gray-900 font-normal placeholder text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"/>
+                    <input type="text" id="phone" placeholder="+1" class=" h-[45px] bg-transparent mt-2 border border-[#DAE0E6] mb-6 text-white font-normal placeholder text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"/>
 
                     <label className=" text-base font-medium" for="Message">Message</label>
-                    <textarea id="message" rows={6} placeholder="Hi! We are Azba group..." class="border-[#DAE0E6] border mb-4 bg-transparent font-normal placeholder text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"></textarea>
+                    <textarea id="message" rows={6} placeholder="Hi! We are Azba group..." class="border-[#DAE0E6] border mb-4 bg-transparent font-normal placeholder text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"></textarea>
 
                     <label className="flex items-center">
                         <input

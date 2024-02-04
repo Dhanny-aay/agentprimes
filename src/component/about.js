@@ -1,33 +1,51 @@
-import Paper_Plane from './assets/Paper_Plane.svg';
-import Arrow_Up_Right_MD from './assets/Arrow_Up_Right_LG.svg';
-import chriana from './assets/chriana.jpg';
-import { Link } from 'react-router-dom';
+import user from './assets/user.svg';
 
 
 const About = () => {
     return ( 
         <>
-        <div className="py-16 px-4 md:px-16 lg:px-24 w-full font-Outfit">
-            <div className=" flex flex-col lg:flex-row items-center justify-between">
-                <div style={{backgroundImage:`url(${chriana})`, backgroundPosition:'center', backgroundSize:'cover'}} className=" w-full h-[440px] rounded-3xl lg:w-[47%] bg-[#f3f3f3]">
-                    
-                </div>
-                <div className=" w-full lg:w-[47%] flex mt-12 lg:mt-0  items-start flex-col">
-                    <span className=" rounded-[50px] w-[110px] flex bg-[#b7984365] py-[6px] px-3 space-x-3 items-center">
-                        <button className=" w-2 h-2 rounded-[50%] bg-gradient-to-r from-[#B79843] to-[#82620F] via-[#a18330]"></button>
-                        <p className=" text-sm text-[#fefefe] font-medium">About Us</p>
-                    </span>
-                    <p className=" mt-2 text-2xl md:text-4xl text-white font-medium">Services Built Specifically for your Business</p>
-                    <p className=" mt-2 text-base font-normal text-[#c6c4c4]">At Prime Agency Sites, we are fully committed to delivering unmatched value to our customers. We take immense pride in providing only the best products and services, and we are confident that our unwavering commitment to excellence is evident in everything we do.</p>
-                    <div className=" mt-4 flex space-x-6 items-center">
-                       <Link to='/contact'><button className=" px-6 py-3 bg-gradient-to-r from-[#B79843] to-[#82620F] via-[#a18330] font-Outfit flex hover:bg-[#081e5ce9] transition-all items-center space-x-2 font-medium text-[#f5f5f5] rounded-[50px]">
-                            <p>Let's Talk</p>
-                            <img src={ Paper_Plane } className=' w-5' alt="" />
-                        </button></Link>
-                        <Link to='/about'><button className=" px-6 py-3 border-2 border-[#B79843] hover:bg-[#b7984365] hover:bg-opacity-30 transition-all font-Outfit flex items-center space-x-1 font-medium text-[#B79843] rounded-[50px]">
-                            <p>Read More</p>
-                            <img src={ Arrow_Up_Right_MD } className=' w-6' alt="" />
-                        </button></Link>
+        <div className=" py-16 px-4 md:px-16 lg:px-24 w-full font-Outfit">
+            <div className=" w-full flex flex-col justify-center items-center">
+                <span className=" rounded-[50px] flex bg-[#b7984365] py-[6px] px-3 space-x-3 items-center">
+                    <button className=" w-2 h-2 rounded-[50%] bg-gradient-to-r from-[#B79843] to-[#82620F] via-[#a18330]"></button>
+                    <p className=" text-sm text-[#fefefe] font-medium">Crafting Digital Excellence</p>
+                </span>
+                <p className=" mt-2 font-medium text-2xl text-white md:text-4xl">Testimonials</p>
+                <p className=" mt-3 text-center text-base md:text-lg text-[#c6c4c4] md:px-[15%]">What our Clients Says?</p>
+                <div className=" w-full mt-8 flex flex-col lg:flex-row justify-between items-start space-y-8 lg:space-y-0">
+                    <div className=" w-full lg:w-[32%] rounded-3xl bg-[#121212] h-[200px]">
+                        {/* <div style={{backgroundImage:`url(${webdev})`, backgroundPosition:'center', backgroundSize:'cover'}} className=" w-full h-[200px] bg-[#717272] rounded-t-3xl"></div> */}
+                        <div className=" p-6">
+                            <div className=' flex flex-row items-center space-x-4'>
+                                <span className=' h-[46px] w-[46px] bg-[#f5f5f5] flex justify-center items-center rounded-[50%]'><img src={ user } alt="" /></span>
+                                <p className=' mt-2 font-medium text-white text-lg'>Jack Floss</p>
+                            </div>
+                            <p className=' text-[#c6c4c4] text-base mt-2'>
+                                With my old website I struggled to get leads, but you guys "My website is a lead magnet! Appointments fill my calendar.
+                            </p>
+                        </div>
+                    </div>
+                    <div  className=" w-full lg:w-[32%] rounded-3xl bg-[#121212] h-[200px]">
+                        {/* <div style={{backgroundImage:`url(${dsign})`, backgroundPosition:'center', backgroundSize:'cover'}} className=" w-full h-[200px] bg-[#717272] rounded-t-3xl"></div> */}
+                        <div className=" p-6">
+                            <div className=' flex flex-row items-center space-x-4'>
+                                <span className=' h-[46px] w-[46px] bg-[#f5f5f5] flex justify-center items-center rounded-[50%]'><img src={ user } alt="" /></span>
+                                <p className=' mt-2 font-medium text-white text-lg'>Jim Bergling</p>
+                            </div>
+                            <p className=' text-[#c6c4c4] text-base mt-2'>
+                                With the follow-up system on my website, "Clients adore me - they say I'm the best they've ever worked with."
+                            </p>
+                        </div>
+                    </div>
+                    <div className=" w-full lg:w-[32%] rounded-3xl bg-[#121212] h-[200px]">
+                        {/* <div style={{backgroundImage:`url(${lead})`, backgroundPosition:'center', backgroundSize:'cover'}} className=" w-full h-[200px] bg-[#717272] rounded-t-3xl"></div> */}
+                       <div className="p-6">
+                            <div className=' flex flex-row items-center space-x-4'>
+                                <span className=' h-[46px] w-[46px] bg-[#f5f5f5] flex justify-center items-center rounded-[50%]'><img src={ user } alt="" /></span>
+                                <p className=' mt-2 font-medium text-white text-lg'>Maya</p>
+                            </div>
+                            <p className=' text-[#c6c4c4] text-base mt-2'>Finally, I can focus on what I love - closing deals, not chasing them. Thanks, Prime Agents Sites</p>
+                        </div>
                     </div>
                 </div>
             </div>

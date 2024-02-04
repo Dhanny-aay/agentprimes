@@ -19,13 +19,13 @@ const Navbar = () => {
 
     return ( 
         <>
-        <div id="overlay" className=" w-full bg-[#fff] backdrop-blur-xl h-[300px] p-6 flex justify-center items-center -translate-y-[500px] shadow transition-all duration-700 top-[78px] fixed z-[99]">
+        <div id="overlay" className=" w-full bg-[#000000] backdrop-blur-xl h-[300px] p-6 flex justify-center items-center -translate-y-[500px] shadow transition-all duration-700 top-[78px] fixed z-[99]">
             <div className="w-full flex flex-col justify-center items-center space-y-5">
                 
-                <Link to='/'><p className=" font-normal cursor-pointer text-base text-[#121212] font-Outfit ">Home</p></Link>
-                <Link to='/examples'><p className=" font-normal cursor-pointer text-base text-[#121212] font-Outfit ">Examples</p></Link>
-                <Link to='/about'><p className=" font-normal cursor-pointer text-base text-[#121212] font-Outfit ">About us</p></Link>
-                <Link to='/contact'><p className=" font-normal cursor-pointer text-base text-[#121212] font-Outfit ">Contact us</p></Link>
+                <Link to='/'><p className=" font-normal cursor-pointer text-base text-[#fff] font-Outfit ">Home</p></Link>
+                <Link to='/examples'><p className=" font-normal cursor-pointer text-base text-[#fff] font-Outfit ">Examples</p></Link>
+                <Link to='/about'><p className=" font-normal cursor-pointer text-base text-[#fff] font-Outfit ">About us</p></Link>
+                <Link to='/contact'><p className=" font-normal cursor-pointer text-base text-[#fff] font-Outfit ">Contact us</p></Link>
             </div>
         </div>
         <div className=" py-6 px-4 md:px-16 z-[9999] lg:px-24 flex items-center justify-between bg-[#000000] fixed top-0 left-0 w-full backdrop-blur-sm">

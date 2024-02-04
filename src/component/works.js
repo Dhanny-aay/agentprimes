@@ -1,6 +1,3 @@
-import katie from './assets/Frame_1-3.png';
-import liz from './assets/Frame_1-4.png';
-import stephens from './assets/Team_Stephens.png';
 import webdev from './assets/pexels-lukas-574071.jpg';
 import dsign from './assets/pexels-tranmautritam-326514.jpg';
 import lead from './assets/pexels-pixabay-265087.jpg';
@@ -14,7 +11,7 @@ const Works = () => {
                     <button className=" w-2 h-2 rounded-[50%] bg-gradient-to-r from-[#B79843] to-[#82620F] via-[#a18330]"></button>
                     <p className=" text-sm text-[#fefefe] font-medium">Crafting Digital Excellence</p>
                 </span>
-                <p className=" mt-2 font-medium text-2xl text-white md:text-4xl">Examples</p>
+                <p className=" mt-2 font-medium text-2xl text-white md:text-4xl">Services</p>
                 <p className=" mt-3 text-center text-base md:text-lg text-[#c6c4c4] md:px-[15%]">Explore our diverse portfolio showcasing cutting-edge web design, development, and tailored digital strategies</p>
                 <div className=" w-full mt-8 flex flex-col lg:flex-row justify-between items-start space-y-8 lg:space-y-0">
                     <div className=" w-full lg:w-[32%] rounded-3xl bg-[#121212] h-[380px]">
@@ -38,8 +35,8 @@ const Works = () => {
                     <div className=" w-full lg:w-[32%] rounded-3xl bg-[#121212] h-[380px]">
                         <div style={{backgroundImage:`url(${lead})`, backgroundPosition:'center', backgroundSize:'cover'}} className=" w-full h-[200px] bg-[#717272] rounded-t-3xl"></div>
                        <div className="p-6">
-                            <p className=' mt-2 font-medium text-white text-lg'>Lead Generation</p>
-                            <p className=' text-[#c6c4c4] text-base mt-2'>We Develop effective forms to capture potential client inquiries and leads.</p>
+                            <p className=' mt-2 font-medium text-white text-lg'>Blog Copywriting</p>
+                            <p className=' text-[#c6c4c4] text-base mt-2'> We craft compelling content that elevates your brand and captivates your audience with impactful storytelling</p>
                         </div>
                     </div>
                 </div>
