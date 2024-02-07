@@ -7,7 +7,7 @@ const Footer = () => {
     return ( 
         <>
         <div className="  bg-gradient-to-r from-[#B79843] to-[#82620F] via-[#a18330] font-Outfit mt-16">
-            <div className=" py-16 px-4 md:px-16 lg:px-24 bg-[#82620F] flex flex-col lg:flex-row items-center justify-between">
+            <div className=" py-16 px-4 md:px-16 lg:px-24 bg-[#121212] flex flex-col lg:flex-row items-center justify-between">
                 <div className=' flex items-center space-x-8'>
                     <img src={ Chat_Conversation_Circle } className=' w-12' alt="Talk to us" />
                     <span className=' flex flex-col space-y-4'>
