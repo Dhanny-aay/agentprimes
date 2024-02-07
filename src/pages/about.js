@@ -10,7 +10,7 @@ const About = () => {
             <p className=" text-center text-2xl md:text-4xl text-white font-medium">About Us</p>
             <p className=" text-center text-[#c6c4c4] font-normal px-[15%] mt-4 text-base md:text-lg">We are a dynamic team comprised of talented designers, developers, and marketing experts.</p>
 
-            <div className=" mt-16 md:mt-16 flex flex-col md:flex-row w-full justify-between items-center">
+            <div className=" mt-16 md:mt-16 flex flex-col lg:flex-row w-full justify-between items-center">
                 <div style={{backgroundImage:`url(${chriana})`, backgroundPosition:'center', backgroundSize:'cover'}} className=" w-full h-[390px] rounded-3xl lg:w-[47%] bg-[#f3f3f3]"></div>
 
                 <div className=" w-full lg:w-[47%] flex mt-12 lg:mt-0  items-start flex-col">
@@ -20,8 +20,8 @@ const About = () => {
             </div>
 
             <div className=" mt-16">
-                <p className=" text-2xl md:text-4xl text-center font-medium">In numbers</p>
-                <div className=" mt-8 grid grid-cols-1 md:grid-cols-5 gap-6">
+                <p className=" text-2xl md:text-4xl text-white text-center font-medium">In numbers</p>
+                <div className=" mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
                     <div className=" w-full h-[150px] border-white/5 bg-[#121212] rounded-3xl p-6 flex flex-col items-start space-y-2 justify-start">
                         <p className="text-[#B79843] text-3xl font-semibold">12+</p>
                         <p className=" text-[#c6c4c4] font-normal text-base">Completed Projects</p>
@@ -48,25 +48,25 @@ const About = () => {
             <div className=" mt-16">
                 <p className=" text-2xl text-white md:text-4xl text-center font-medium">Our Values</p>
                 <div className=" mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div className=" w-full h-[230px] border-white/5 bg-[#121212] rounded-3xl p-6 flex flex-col items-start space-y-2 justify-start">
+                    <div className=" w-full md:h-[290px] lg:h-[230px] border-white/5 bg-[#121212] rounded-3xl p-6 flex flex-col items-start space-y-2 justify-start">
                         <p className=" text-[#B79843] font-medium text-xl">01.</p>
                         <p className=" text-white mt-2 text-lg font-medium">We are specialized</p>
                         <p className=" mt-3 text-[#c6c4c4] text-base font-normal">We develop unique digital experiences based on user insights, our expertise and proved data. We study the market, your competitors, and more importantly, your customers. We do the heavy lifting for you.</p>
                     </div>
 
-                    <div className=" w-full h-[230px] border-white/5 bg-[#121212] rounded-3xl p-6 flex flex-col items-start space-y-2 justify-start">
+                    <div className=" w-full md:h-[290px] lg:h-[230px] border-white/5 bg-[#121212] rounded-3xl p-6 flex flex-col items-start space-y-2 justify-start">
                         <p className=" text-[#B79843] font-medium text-xl">02.</p>
                         <p className=" text-white mt-2 text-lg font-medium">We are responsive</p>
                         <p className=" mt-3 text-[#c6c4c4] text-base font-normal">We always keep door open in communication both with client and teammates. Everyone’s feedback is valuable, and we're never too busy to hear it. This is more than listening and discussion. It is about finding the right way.</p>
                     </div>
 
-                    <div className=" w-full h-[230px] border-white/5 bg-[#121212] rounded-3xl p-6 flex flex-col items-start space-y-2 justify-start">
+                    <div className=" w-full md:h-[290px] lg:h-[230px] border-white/5 bg-[#121212] rounded-3xl p-6 flex flex-col items-start space-y-2 justify-start">
                         <p className=" text-[#B79843] font-medium text-xl">03.</p>
                         <p className=" text-white mt-2 text-lg font-medium">We focus on results</p>
                         <p className=" mt-3 text-[#c6c4c4] text-base font-normal">We carefully consider every project we take on because when we commit, we always bring 100%, and even a bit more. We are driven by a desire to provide best experience which exceeds a client's expectation.</p>
                     </div>
 
-                    <div className=" w-full h-[230px] border-white/5 bg-[#121212] rounded-3xl p-6 flex flex-col items-start space-y-2 justify-start">
+                    <div className=" w-full md:h-[290px] lg:h-[230px] border-white/5 bg-[#121212] rounded-3xl p-6 flex flex-col items-start space-y-2 justify-start">
                         <p className=" text-[#B79843] font-medium text-xl">04.</p>
                         <p className=" text-white mt-2 text-lg font-medium">We work smart</p>
                         <p className=" mt-3 text-[#c6c4c4] text-base font-normal">We approach every challenge with an open mind. We are not afraid to experiment, try something new or combine things that no one has done before. This keeps us sharp and brings unique solutions to our clients.</p>

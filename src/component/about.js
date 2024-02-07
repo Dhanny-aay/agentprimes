@@ -1,5 +1,8 @@
 import { motion } from 'framer-motion';
 import user from './assets/user.svg';
+import trace from './assets/pexels-trace-constant-2834009.jpg';
+import maya from './assets/pexels-andrea-piacquadio-762020.jpg';
+import jack from './assets/pexels-linkedin-sales-navigator-2182970.jpg';
 
 const About = () => {
     return ( 
@@ -25,7 +28,7 @@ const About = () => {
                         {/* <div style={{backgroundImage:`url(${webdev})`, backgroundPosition:'center', backgroundSize:'cover'}} className=" w-full h-[200px] bg-[#717272] rounded-t-3xl"></div> */}
                         <div className=" p-6">
                             <div className=' flex flex-row items-center space-x-4'>
-                                <span className=' h-[46px] w-[46px] bg-[#f5f5f5] flex justify-center items-center rounded-[50%]'><img src={ user } alt="" /></span>
+                                <span style={{backgroundImage:`url(${jack})`, backgroundPosition:'center', backgroundSize:'cover'}} className=' h-[46px] w-[46px] bg-[#f5f5f5] flex justify-center items-center rounded-[50%]'></span>
                                 <p className=' mt-2 font-medium text-white text-lg'>Jack Floss</p>
                             </div>
                             <p className=' text-[#c6c4c4] text-base mt-2'>
@@ -41,7 +44,7 @@ const About = () => {
                         {/* <div style={{backgroundImage:`url(${dsign})`, backgroundPosition:'center', backgroundSize:'cover'}} className=" w-full h-[200px] bg-[#717272] rounded-t-3xl"></div> */}
                         <div className=" p-6">
                             <div className=' flex flex-row items-center space-x-4'>
-                                <span className=' h-[46px] w-[46px] bg-[#f5f5f5] flex justify-center items-center rounded-[50%]'><img src={ user } alt="" /></span>
+                                <span style={{backgroundImage:`url(${trace})`, backgroundPosition:'center', backgroundSize:'cover'}} className=' h-[46px] w-[46px] bg-[#f5f5f5] flex justify-center items-center rounded-[50%]'></span>
                                 <p className=' mt-2 font-medium text-white text-lg'>Jim Bergling</p>
                             </div>
                             <p className=' text-[#c6c4c4] text-base mt-2'>
@@ -57,7 +60,7 @@ const About = () => {
                         {/* <div style={{backgroundImage:`url(${lead})`, backgroundPosition:'center', backgroundSize:'cover'}} className=" w-full h-[200px] bg-[#717272] rounded-t-3xl"></div> */}
                        <div className="p-6">
                             <div className=' flex flex-row items-center space-x-4'>
-                                <span className=' h-[46px] w-[46px] bg-[#f5f5f5] flex justify-center items-center rounded-[50%]'><img src={ user } alt="" /></span>
+                                <span style={{backgroundImage:`url(${maya})`, backgroundPosition:'center', backgroundSize:'cover'}} className=' h-[46px] w-[46px] bg-[#f5f5f5] flex justify-center items-center rounded-[50%]'></span>
                                 <p className=' mt-2 font-medium text-white text-lg'>Maya</p>
                             </div>
                             <p className=' text-[#c6c4c4] text-base mt-2'>Finally, I can focus on what I love - closing deals, not chasing them. Thanks, Prime Agents Sites</p>

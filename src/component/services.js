@@ -4,7 +4,7 @@ import layer from './assets/Layers.svg';
 import laptop from './assets/Laptop.png';
 import mob from './assets/Mobile_Button.png';
 import house from './assets/House_01.png';
-import check from './assets/Check_All_Big.png';
+import check from './assets/Check_All_Big.svg';
 import { motion } from 'framer-motion';
 
 const Services = () => {
