@@ -4,6 +4,7 @@ import Navbar from "../component/navbar";
 import load from './assets/load.gif';
 import checked from './assets/checked.png';
 import warning from './assets/warning.png';
+import { motion } from "framer-motion";
 
 const Contact = () => {
 
@@ -110,12 +111,24 @@ const Contact = () => {
         <Navbar/>
         <div className=" mt-28 md:mt-40 pb-8 md:pb-16 px-4 md:px-16 lg:px-24 w-full font-Outfit">
             <div className="mt-12 md:px-8 lg:px-16 px-3 ">
-                <p className=" w-full text-[24px] md:text-[32px] text-white text-center font-semibold">Contact Prime Agent Sites</p>
-                <p className=" w-full text-[16px] md:text-[18px] text-center text-[#c6c4c4] font-normal">We’d love to hear from you. Please fill out this form.</p>
+                <motion.p
+                initial={{ y: 20, opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
+                transition={{ duration: 1, type:'tween' }}
+                className=" w-full text-[24px] md:text-[32px] text-white text-center font-semibold">Contact Prime Agent Sites</motion.p>
+                <motion.p
+                initial={{ y: 20, opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
+                transition={{ duration: 1, type:'tween' }}
+                className=" w-full text-[16px] md:text-[18px] text-center text-[#c6c4c4] font-normal">We’d love to hear from you. Please fill out this form.</motion.p>
             </div>
 
             <div className=" my-8 w-full md:px-10 lg:px-20 text-white">
-                <div className=" w-full p-3 md:p-8 md:border rounded-[8px] border-[#DAE0E6]">
+                <motion.div 
+                initial={{ y: 20, opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
+                transition={{ duration: 1, type:'tween' }}
+                className=" w-full p-3 md:p-8 md:border rounded-[8px] border-[#DAE0E6]">
                     <div className=" w-full flex flex-col md:flex-row justify-between mb-6">
                         <span className=" w-full md:w-[48%]">
                             <label className=" text-base font-medium" for="first-name">Full name</label>
@@ -158,7 +171,7 @@ const Contact = () => {
                         { loading === 'No' && <p className=" font-Outfit text-base text-white">Send Message</p> }
                         { loading === 'Yes' && <img src={ load } className=' w-6 h-6' alt="" />}
                     </button>
-                </div>
+                </motion.div>
             </div>
         </div>
         { successMessage && <div className=" w-full h-[100vh] fixed top-0 left-0 bg-[#00000057] flex justify-center items-center z-[99999] px-5 md:px-0">

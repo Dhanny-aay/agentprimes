@@ -34,9 +34,9 @@ const Hero = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 1 }} // Conditionally set the delay
                     className=" mt-4 flex space-x-4 md:justify-normal md:space-x-6 items-center">
-                        <Link to='/contact'><button className=" px-4 md:px-6 py-3  bg-gradient-to-r from-[#B79843] to-[#82620F] via-[#a18330] transition-all font-Outfit flex items-center space-x-2 font-medium text-[#f5f5f5] rounded-[50px]">
+                        <Link to='/contact'><button className=" custom-button">
                             <p>Let's Talk</p>
-                            <img src={ Paper_Plane } className=' w-5' alt="" />
+                            <img src={ Paper_Plane } className=' ml-2 w-5' alt="" />
                         </button></Link>
                         <Link to='/examples'><button className=" px-4 md:px-6 py-3 border-2 border-[#B79843] hover:bg-[#b7984365] hover:bg-opacity-30 transition-all font-Outfit flex items-center space-x-2 font-medium text-[#B79843] rounded-[50px]">
                             <p>View Examples</p>
