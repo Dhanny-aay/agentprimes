@@ -17,7 +17,7 @@ const Examples = () => {
             initial={{ y: 44, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay:0.2 }}
-            className=" text-center text-2xl md:text-4xl text-white font-medium">Our Works</motion.p>
+            className=" text-center text-2xl md:text-4xl text-white font-medium">Our Examples</motion.p>
             <motion.p 
             initial={{ y: 44, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
