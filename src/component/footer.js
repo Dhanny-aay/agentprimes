@@ -2,6 +2,8 @@ import Chat_Conversation_Circle from './assets/Chat_Conversation_Circle.svg';
 import Paper_Plane from './assets/Paper_Plane.svg';
 import logo from './assets/log.png';
 import { Link } from 'react-router-dom';
+import call from './assets/call.png';
+import email from './assets/email.png'; 
 
 const Footer = () => {
     return ( 
@@ -34,8 +36,13 @@ const Footer = () => {
                         alt="Agent Prime Sites" />
                     </span>
                     <p className=' font-normal text-base w-[250px]'>Prime Agent Sites is an innovative digital agency that specializes in creating high-quality website</p>
-                    <span className=' flex text-white'>
-                        Email: Info@primeagentsites.com
+                    <span className=' flex space-x-2 text-white'>
+                        <img src={ call } alt="" />
+                        <p>(902) 536-3356</p>
+                    </span>
+                    <span className=' flex space-x-2 text-white'>
+                        <img src={ email } alt="" />
+                        <p>Info@primeagentsites.com</p>
                     </span>
                 </div>
 
