@@ -35,11 +35,12 @@ const Navbar = () => {
                 <Link to='/about'><a className='hidden hover:text-[#b79843] transition-all lg:block mx-4' href="">About Us</a></Link>
                 <Link to='/examples'><a className='hidden hover:text-[#b79843] transition-all lg:block mx-4' href="">Examples</a></Link>
                 {/* <a className='hidden lg:block mx-4' href="">Packages</a> */}
-                <Link className=' hover' to='/contact'><button className=" custom-button">
-                    <p>Let's Talk</p>
+                <a href="mailto:Info@primeagentsites.com">
+                <button className=" custom-button">
+                    <p>Send a mail</p>
                     <img src={ Paper_Plane } className=' ml-2 w-5' alt="" />
                 </button>
-                </Link>
+                </a>
                 <img src={ Hamburger_MD } onClick={ overlay } className=' hidden ml-8 md:block lg:hidden' alt="menu" />
             </span>
             <img src={ Hamburger_MD } onClick={ overlay } className=' block md:hidden' alt="menu" />

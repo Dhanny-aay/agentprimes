@@ -26,7 +26,7 @@ const Footer = () => {
             <div className=" py-16 px-4 md:px-16 lg:px-24 text-[#f5f5f5d3]">
                 <div className=" flex flex-col lg:flex-row items-start justify-between space-y-5 md:space-y-0">
 
-                <div className=" space-y-3">
+                <div className=" space-y-2">
                     <span className=" flex items-center">
                         <img 
                         src={ logo } 
@@ -34,23 +34,8 @@ const Footer = () => {
                         alt="Agent Prime Sites" />
                     </span>
                     <p className=' font-normal text-base w-[250px]'>Prime Agent Sites is an innovative digital agency that specializes in creating high-quality website</p>
-                    <span className=' flex items-center space-x-6'>
-                        
-                        {/* <img 
-                        src={ fb }
-                        alt="" />
-
-                        <img 
-                        src={ twi }
-                        alt="" />
-
-                        <img 
-                        src={ ig }
-                        alt="" />
-
-                        <img 
-                        src={ whatsapp }
-                        alt="" /> */}
+                    <span className=' flex text-white'>
+                        Email: Info@primeagentsites.com
                     </span>
                 </div>
 
