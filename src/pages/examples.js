@@ -1,6 +1,5 @@
 import Footer from "../component/footer";
 import Navbar from "../component/navbar";
-import brian from './assets/Frame_1.png';
 import beverly from './assets/Frame_1-2.png';
 import chelsea from './assets/Frame_1-1.png';
 import katie from './assets/Frame_1-3.png';
@@ -72,15 +71,7 @@ const Examples = () => {
                      <p className=" font-medium text-lg mt-2 text-white">Beverly Hills real estate agent</p>
                      <a href="https://jademillsestates.com/" target="blank" className=" mt-3 text-[#c6c4c4] text-base underline hover:text-[#b79843]">View Site</a>
                     </motion.div>  
-                    <motion.div 
-                    initial={{ y: 20, opacity: 0 }}
-                    whileInView={{ y: 0, opacity: 1 }}
-                    transition={{ duration: 1, type:'tween', delay:0.5 }}
-                    className=" ">
-                     <div style={{backgroundImage:`url(${brian})`, backgroundPosition:'center', backgroundSize:'cover'}} className=" w-full h-[300px] bg-[#f4f4f4] rounded-3xl"></div>
-                     <p className=" font-medium text-lg mt-2 text-white">First Team Real Estate</p>
-                     <a href="https://www.firstteam.com/agent/48321-Brian-Wilson/" target="blank" className=" mt-3 text-[#c6c4c4] text-base underline hover:text-[#b79843]">View Site</a>
-                    </motion.div>  
+                    
                 </div>
             </div>
         </div>
